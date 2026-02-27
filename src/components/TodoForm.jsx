@@ -24,7 +24,7 @@ const StyledFormInside = styled.div`
       align-items: center;
       width: 100%;
     }
-    & input {
+    input {
       flex: auto;
     }
   }
@@ -39,6 +39,12 @@ const StyledFormInside = styled.div`
     border: 1px solid #e5e7eb;
     border-radius: 4px;
     font-size: 1rem;
+  }
+
+  ${media.tablet} {
+    & input {
+      flex: auto;
+    }
   }
 
   & button {
